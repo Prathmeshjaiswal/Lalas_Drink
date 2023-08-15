@@ -1,0 +1,68 @@
+*{
+    margin :0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.bgimg{
+    height:100%;
+    width :100%;
+    z-index: -1;
+    position: absolute;
+    opacity:1.7;
+
+}
+
+h1{
+    color:white;
+    text-align: center;;
+}
+
+.container input{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px
+}
+.container{
+    margin :auto;
+}
+
+.alcohol_brand {
+    margin: 50px;
+    color: white;
+    
+}
+
+#alcohol_brand{
+    cursor: pointer;
+    width: 200px;
+    padding: 1px 60px;
+    border-radius: 7px;
+    border: 2px darkred;
+
+}
+
+.submit{
+    margin: 2% 20%;
+    background-color: green;
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 5px;
+    cursor:pointer;
+
+}
+
+.successmsg{
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin: 1px 335px;
+    /* display: flex; */
+    background-color: green;
+    /* width: 40%; */
+    padding: 6px;
+}
+
